@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="catalog-page">
     <header>
-      <nav>
-        <a href="index.html">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
           <img src="../img/logo-nerds.svg" width="160px" height="65px" alt="Логотип Нёрдс">
         </a>
         <ul class="main-menu">
@@ -15,11 +17,11 @@
           <li><a href="#">Клиенты</a></li>
           <li><a href="catalog.html">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
-        <ul>
+        </ul>
 
-        <div class="user-cart">
-          Корзина
-        <div>
+        <ul class="user-cart">
+          <li class="cart-link">Корзина</li>
+        </ul>
       </nav>
     </header>
 
@@ -35,12 +37,12 @@
         <div class="sorting">
           <p>Сортировать:</p>
           <ul class="sorting-type">
-            <li class="sorting-type-item"><a href="#">По цене</a></li>
+            <li class="sorting-type-item"><a class="current" href="#">По цене</a></li>
             <li class="sorting-type-item"><a href="#">По типу</a></li>
             <li class="sorting-type-item"><a href="#">По названию</a></li>
           </ul>
           <ul class="sorting-order">
-            <li class="sorting-order-item"><a class="order-decrease" href="#"></a></li>
+            <li class="sorting-order-item"><a class="order-decrease current" href="#"></a></li>
             <li class="sorting-order-item"><a class="order-increase"  href="#"></a></li>
           </ul>
         </div>

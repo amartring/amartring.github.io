@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav>
-        <a>
+      <nav class="main-navigation">
+        <a class="main-header-logo">
           <img src="../img/logo-nerds.svg" width="160px" height="65px" alt="Логотип Нёрдс">
         </a>
         <ul class="main-menu">
@@ -15,11 +17,11 @@
           <li><a href="#">Клиенты</a></li>
           <li><a href="catalog.html">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
-        <ul>
+        </ul>
 
-        <div class="user-cart">
-          Корзина
-        <div>
+        <ul class="user-cart">
+          <li class="cart-link">Корзина</li>
+        </ul>
       </nav>
     </header>
 
@@ -88,14 +90,14 @@
         </div>
         <div  class="description-statistics">
           <img src="../img/logo-nerds-big.svg" width="360px" height="208px" alt="Логотип Нёрдс">
-          <h3>с 2004 года Любим точность во всем:</h3>
+          <h3>с 2004 года любим точность во всем:</h3>
           <table>
-            <tr>
+            <tr class="percent">
               <td>146<sup>%</sup></td>
               <td>100<sup>%</sup></td>
               <td>50<sup>%</sup></td>
             </tr>
-            <tr>
+            <tr class="indicator">
               <td>Уровень самоотдачи</td>
               <td>Соблюдение сроков</td>
               <td>Минимальная предоплата</td>
@@ -143,9 +145,9 @@
     <footer>
       <div class="footer-social">
         <ul>
-          <li><a href="#">ВКонтакте</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
+          <li class="social-item"><a href="#">ВКонтакте</a></li>
+          <li class="social-item"><a href="#">Facebook</a></li>
+          <li class="social-item"><a href="#">Instagram</a></li>
         </ul>
       </div>
 
